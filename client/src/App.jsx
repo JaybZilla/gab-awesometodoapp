@@ -18,7 +18,7 @@ export default function App() {
       });
       const newTodo = await res.json();
 
-      setContent("");
+      setContent( );
       setTodos([...todos, newTodo]); // Add the new todo to the state
     }
   };
